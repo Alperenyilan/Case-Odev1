@@ -6,7 +6,7 @@
 
 # BodyTicket: Bu Component, Verilerin state değişkenleri ve işlevler aracılığıyla yönetildiği bölümdür. Seyehat Türü, Sınıf ve fiyat detayları girilir.
 
-# FlightData:Bu Component, Verilen alınıp başka componentlere aktarıldığı yerdir.
+# FlightData:Bu Component, Verilerin alınıp başka componentlere aktarıldığı yerdir.
 
 # FlightList:Bu Component, her bir uçuşun detaylarını ve bir butonu içeren bir liste öğesi oluşturmayı sağlar.
 
