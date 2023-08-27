@@ -4,7 +4,7 @@
 
 # BodyComponent: Body Component bileşeni, kullanıcıya uçuş arama ve sonuçlarını görüntülemesini sağlayan bir arayüz sağlar. HeaderTop başlığı ise, şehir seçim inputları, arama butonu uçuş sonuçları ve tüm uçuşların listelendiği bir bileşen içerir.
 
-# BodyTicket: Bu Component, Verilerin state değişkenleri ve işlevler aracılığıyla yönetildiği bölümdür. Seyehat Türü, Sınıf ve fiyat detayları girilir.
+# BookTicket: Bu Component, Verilerin state değişkenleri ve işlevler aracılığıyla yönetildiği bölümdür. Seyehat Türü, Sınıf ve fiyat detayları girilir.
 
 # FlightData:Bu Component, Verilerin alınıp başka componentlere aktarıldığı yerdir.
 
