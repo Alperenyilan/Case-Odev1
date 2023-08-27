@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Proje Hakkında Genel Bilgiler
+<br/>
+<h1>Kodlar Hakkında</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BodyComponent: Body Component bileşeni, kullanıcıya uçuş arama ve sonuçlarını görüntülemesini sağlayan bir arayüz sağlar. HeaderTop başlığı ise, şehir seçim inputları, arama butonu uçuş sonuçları ve tüm uçuşların listelendiği bir bileşen içerir.
 
-## Available Scripts
+# BodyTicket: Bu Component, Verilerin state değişkenleri ve işlevler aracılığıyla yönetildiği bölümdür. Seyehat Türü, Sınıf ve fiyat detayları girilir.
 
-In the project directory, you can run:
+# FlightData:Bu Component, Verilerin alınıp başka componentlere aktarıldığı yerdir.
 
-### `npm start`
+# FlightList:Bu Component, her bir uçuşun detaylarını ve bir butonu içeren bir liste öğesi oluşturmayı sağlar.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# HeaderTop:Bu Component, sayfanın üst kısmında yer alan başlık, logo ve menüyü oluşturmamızı sağlar.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Home : Bu bileşen, HeaderTop ve BodyComponentinin çağrıldığı bileşendir.Sayfada kullanılması için bu bileşende çağırıp topladığım componenttir.
 
-### `npm test`
+# NewDropDown: Bu Bileşen, Ant Design Select bileşenini kullanarak bir şehir seçim kutusu oluşturdum. props olarak gelen selected işlevini, bir seçenek seçildiğinde tetiklenir ve bu işlevi prop olarak geçen bileşenlerde kullanıldı.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Pop Up: Bu bileşen,bir rezervasyon butonu oluşturur ve tıklanıldığında bir modal penceresi açar. Modal içerisinde BookTicket bileşeni yer alır, bu bileşen rezervasyon formunu içerir. "Tamam" düğmesine tıklandığında rezervasyon tamamlanır ve modal kapatılır. Bu bileşeni oluşturma sebebim ise, projenin gerçek hayat projesi olması ve Amadeus firmasının değerlerinde olan mükemmelliyetçilik anlayışına uygun olması için yapma gereksinimi kendi içimde duydum. Extradan böyle bir özellik getirmek istedim proje için.
 
-### `npm run build`
+# RadioBtn: Bu Bileşen, Kullanıcıya "Gidiş" veya "Gidiş-Dönüş" seyahat türü seçenekleri sunar. Eğer "Gidiş-Dönüş" seçilirse, hem gidiş hem de dönüş tarihi seçenekleri görüntülenir. Eğer sadece "Gidiş" seçilirse, sadece gidiş tarihi seçeneği görüntülenir.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# SearchFlight: Bu Bileşen, Bu bileşen, kullanıcının başlangıç ve varış noktalarını seçerek uçuşları aramasını sağlar. Ardından, arama sonuçlarını tablo şeklinde görüntülemektedir.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# ScreenShots:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Aşağıdaki resimde projenin genel yapısı mevcuttur. Sol alt kısımda ise arama yapıldıktan sonra sağ tarafta listelenen ürünlerin kaç adet olduğunu göstermektedir.
+![genelekran görüntüsü](https://github.com/Alperenyilan/Case-Odev1/assets/49797242/82eae079-6cfe-477b-887d-cc14d6901980)
 
-### `npm run eject`
+# Aşağıdaki resimde tıklanıldıgında şehirlerin listelenmesi görüntülenmektedir.
+![şehirler listeleme](https://github.com/Alperenyilan/Case-Odev1/assets/49797242/09ac5083-5496-46be-ba52-aa1ec13ab63f)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Aşağıdaki resimde gidiş-dönüş tıklandıgında dönüş günü görüntülenmektedir.
+![gidiş dönüş](https://github.com/Alperenyilan/Case-Odev1/assets/49797242/8b30fb0a-7ed5-41f6-8cd3-2c28cc3c7d6c)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Aşağıdaki resimde tek yön için rezervasyon bölümü görüntülenmektedir.Rezervasyon için tıklanılan üründe hangi firma ise o firmanın adı yazar en üstte.
+![Tek Yön Rezervasyon](https://github.com/Alperenyilan/Case-Odev1/assets/49797242/dc4225d5-c9ea-428f-b793-5e39ffc50dc5)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Aşağıdaki resimde gidiş-dönüş için rezervasyon bölümü görüntülenmektedir. Gidiş-Dönüş kısmına tıklandıgında ayrı bir dönüş için date görüntülenir.
+![Gidiş dönüş rezervasyon](https://github.com/Alperenyilan/Case-Odev1/assets/49797242/19591e97-7ab4-4aaa-849a-b141d1abf104)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Aşağıdaki resimde iptal et tıklandıgında sayfa kapanır. Ücretler örnek için olusturulmustur.
+![Alt kısım rezervasyon](https://github.com/Alperenyilan/Case-Odev1/assets/49797242/9bca34c0-f97f-45b3-b158-b4a8b14db70a)
 
-## Learn More
+# Proje Ayağa Kaldırmak için: 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1.) Projeyi indirin veya git clone (linki kopyalayın) <br/>
+2.) Npm install <br/>
+3) Npm Start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Tech Stack 
+React,Antd,Ant Design
 
-### Code Splitting
+# Özet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Projede seçilen şehirlerin aratılıp listelendikten sonra bu listelenen ürünlerin sayısını tutan bir yapı oluşturdum sol alt kısımda. Daha sonra ise listenen ürünlerin rezervasyon işlemini yapmasını sağlamak için ayrı bir bileşen oluşturdum. Bunun içinde de hem tek hem gidiş-dönüş için iki ayrı yapı kullandım. Bana verilen caseden daha fazlasını yapmayı ve daha farklı bir bakış açısıyla yaklaşıp gerçek zamanlı bir projeye dönüştürmeyi amaçladım. Amadeus şirketinin değerlerinde olan mükemmelliyetçi ve sorumluluk alma vizyonunu en iyi şekilde yansıtmak için daha iyi ve daha fazlasını yapmayı amaçladım. 
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
