@@ -24,7 +24,7 @@
 
 # ScreenShots:
 
-# Aşağıdaki resimde projenin genel yapısı mevcuttur. Sol alt kısımda ise listelenen ürünlerin kaç adet olduğunu göstermektedir.
+# Aşağıdaki resimde projenin genel yapısı mevcuttur. Sol alt kısımda ise arama yapıldıktan sonra sağ tarafta listelenen ürünlerin kaç adet olduğunu göstermektedir.
 ![genelekran görüntüsü](https://github.com/Alperenyilan/Case-Odev1/assets/49797242/82eae079-6cfe-477b-887d-cc14d6901980)
 
 # Aşağıdaki resimde tıklanıldıgında şehirlerin listelenmesi görüntülenmektedir.
