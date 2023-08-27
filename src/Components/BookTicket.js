@@ -4,9 +4,9 @@ import { DatePicker, Button, Form, Select } from 'antd';
 import './Bookflight.css';
 import './FormS.css';
 import plane from './plane.png';
-// import RadioBtn from './RadioBtn';
+
 import { Link } from 'react-router-dom';
-// import moment from 'moment';
+
 function disabledDate(current) {
     // Can not select days before today and today
     return current && current.valueOf() < Date.now();

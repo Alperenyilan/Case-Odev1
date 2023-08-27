@@ -1,5 +1,4 @@
 import FlightData from './FlightData';
-// import { Table } from 'antd';
 import 'antd/dist/antd.css';
 import React, { useState } from 'react';
 import NewDropDown from './NewDropDown';

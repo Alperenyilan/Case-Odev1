@@ -4,8 +4,6 @@ import HeaderTop from './HeaderTop';
 // import LogninForm from './LogninForm';
 // import FlightList from './FlightList';
 import Bodycomponent from './Bodycomponent';
-// import Bookflight from './BookFlight';
-// import BookedTicket from './BookedTicket';
 import './FormS.css'
 
 function Homes() {
@@ -13,8 +11,7 @@ function Homes() {
         <>
             <HeaderTop />
             <Bodycomponent />
-            {/* <Bookflight /> */}
-            {/* <BookedTicket /> */}
+
 
         </>
     );

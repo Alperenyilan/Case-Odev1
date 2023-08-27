@@ -5,7 +5,6 @@ import { Radio } from 'antd';
 import "antd/dist/antd.css";
 
 import './BodyComp.css';
-// import moment from 'moment';
 import { DatePicker, Space } from 'antd';
 function disabledDate(current) {
     // Can not select days before today and today

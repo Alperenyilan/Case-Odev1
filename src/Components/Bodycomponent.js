@@ -1,22 +1,16 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-// import ReactDOM from "react-dom";
 import "antd/dist/antd.css";
 import './BodyComp.css';
 import arrow from './arrows.png';
 import RadioBtn from './RadioBtn';
-// import { DatePicker, Space } from 'antd';
-// import LogninForm from './LogninForm'
 import DisplayFlight from './FlightList';
-// import NewDropDowns from './NewDropDown';
 import FlightData from './FlightData';
-// import SearchFlight from './SearchFlight';
 import 'antd/dist/antd.css';
 import { Select } from 'antd';
 import './TopHeaderStyle.css'
 import { useState } from 'react';
 import HeaderTop from './HeaderTop';
-// import { render } from '@testing-library/react';
+
 
 
 function Bodycomponent() {

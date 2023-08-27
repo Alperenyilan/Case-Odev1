@@ -4,8 +4,7 @@ import React from 'react';
 import './TopHeaderStyle.css'
 import logo from './amadeus.png'
 import { Link } from 'react-router-dom';
-// import LogninForm from './LogninForm';
-// import Homes from './Home';
+
 
 function HeaderTop() {
     return (

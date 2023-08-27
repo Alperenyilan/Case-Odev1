@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Modal, Button } from 'antd';
+import { Modal, } from 'antd';
 // import './FlightList.css';
 import './FormS.css';
 import BookTicket from './BookTicket';
@@ -60,7 +60,7 @@ class PopUp extends Component {
 
 
   render() {
-    const { visible, loading } = this.state;
+    const { visible, } = this.state;
     const bookButton = this.state.checkBook ? 'Booked' : 'Rezervasyon'
 
     return (

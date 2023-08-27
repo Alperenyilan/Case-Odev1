@@ -1,11 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import './FormS.css';
-// import { Link } from 'react-router-dom';
 import plane from './plane.png';
-// import FlightData from './FlightData';
-// import { render } from '@testing-library/react';
-// import BookFlight from './BookFlight';
 import PopUp from './PopUp';
 
 
