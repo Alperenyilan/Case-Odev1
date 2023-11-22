@@ -16,7 +16,7 @@
 
 # NewDropDown: Bu Bileşen, Ant Design Select bileşenini kullanarak bir şehir seçim kutusu oluşturdum. props olarak gelen selected işlevini, bir seçenek seçildiğinde tetiklenir ve bu işlevi prop olarak geçen bileşenlerde kullanıldı.
 
-# Pop Up: Bu bileşen,bir rezervasyon butonu oluşturur ve tıklanıldığında bir modal penceresi açar. Modal içerisinde BookTicket bileşeni yer alır, bu bileşen rezervasyon formunu içerir. "Tamam" düğmesine tıklandığında rezervasyon tamamlanır ve modal kapatılır. Bu bileşeni oluşturma sebebim ise, projenin gerçek hayat projesi olması ve Amadeus firmasının değerlerinde olan mükemmelliyetçilik anlayışına uygun olması için yapma gereksinimi kendi içimde duydum. Extradan böyle bir özellik getirmek istedim proje için.
+# Pop Up: Bu bileşen,bir rezervasyon butonu oluşturur ve tıklanıldığında bir modal penceresi açar. Modal içerisinde BookTicket bileşeni yer alır, bu bileşen rezervasyon formunu içerir. "Tamam" düğmesine tıklandığında rezervasyon tamamlanır ve modal kapatılır. 
 
 # RadioBtn: Bu Bileşen, Kullanıcıya "Gidiş" veya "Gidiş-Dönüş" seyahat türü seçenekleri sunar. Eğer "Gidiş-Dönüş" seçilirse, hem gidiş hem de dönüş tarihi seçenekleri görüntülenir. Eğer sadece "Gidiş" seçilirse, sadece gidiş tarihi seçeneği görüntülenir.
 
