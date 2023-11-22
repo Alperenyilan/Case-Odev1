@@ -51,9 +51,7 @@
 # Tech Stack 
 React,Antd,Ant Design
 
-# Özet
 
-Projede seçilen şehirlerin aratılıp listelendikten sonra bu listelenen ürünlerin sayısını tutan bir yapı oluşturdum sol alt kısımda. Daha sonra ise listenen ürünlerin rezervasyon işlemini yapmasını sağlamak için ayrı bir bileşen oluşturdum. Bunun içinde de hem tek hem gidiş-dönüş için iki ayrı yapı kullandım. Bana verilen caseden daha fazlasını yapmayı ve daha farklı bir bakış açısıyla yaklaşıp gerçek zamanlı bir projeye dönüştürmeyi amaçladım. Amadeus şirketinin değerlerinde olan mükemmelliyetçi ve sorumluluk alma vizyonunu en iyi şekilde yansıtmak için daha iyi ve daha fazlasını yapmayı amaçladım. 
 
 
 
